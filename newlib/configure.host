@@ -430,6 +430,10 @@ fi
 # THIS TABLE IS ALPHA SORTED.  KEEP IT THAT WAY.
 
 case "${host}" in
+  *-*-barbaos*)
+	sys_dir=barbaos
+	have_crt0="no"
+	;;
   *-*-cygwin*)
 	posix_dir=posix
 	xdr_dir=xdr
